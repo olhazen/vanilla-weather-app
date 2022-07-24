@@ -21,6 +21,9 @@ h1 {
         font-weight: 100;
         line-height: 19px;
       }
+      li:first-letter {
+        text-transform: capitalize;
+      }
       .weather-app-wrapper {
         max-width: 600px;
         margin: 30px auto;
