@@ -105,3 +105,4 @@ let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${
   celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
   search("New York");
+  displayForecast();
