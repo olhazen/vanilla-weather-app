@@ -36,6 +36,13 @@ function formatDay(timestamp) {
     console.log(forecastHTML);
   }
 
+  function getForecast(coordinates) {
+    console.log(coordinates);
+    let apiKey = "63d044a506f804437a5b801028b410cc";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(displayForecast);
+  }
+
   function displayTemperature(response) {
     let temperatureElement = document.querySelector("#temperature");
     let cityElement = document.querySelector("#city");
