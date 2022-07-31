@@ -1,15 +1,16 @@
 body{
-  background-color: rgb(237, 243, 232);
+  background-color: rgb(171, 187, 159);
 }
-  
+
 h1 {
-        color: #878787;
-        font-size: 24px;
+        color: #135833;
+        font-size: 26px;
         font-weight: 100;
         line-height: 28px;
         margin-bottom: 0;
 
       }
+
       ul {
         margin: 0;
         padding: 0;
@@ -19,7 +20,7 @@ h1 {
         list-style: none;
         margin: 0;
         padding: 0;
-        color: rgb(135, 135, 135);
+        color: #135833;
         font-size: 16px;
         font-weight: 100;
         line-height: 19px;
@@ -47,7 +48,7 @@ h1 {
         width: 64px;
       }
       .weather-temperature strong {
-        color: rgb(33, 33, 33);
+        color:#135833;
         font-size: 64px;
         line-height: 1;
         font-weight: 400;
