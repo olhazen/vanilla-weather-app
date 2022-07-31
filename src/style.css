@@ -1,4 +1,6 @@
-  
+body{
+  background-color: rgb(237, 243, 232);
+}
   
 h1 {
         color: #878787;
@@ -6,6 +8,7 @@ h1 {
         font-weight: 100;
         line-height: 28px;
         margin-bottom: 0;
+
       }
       ul {
         margin: 0;
