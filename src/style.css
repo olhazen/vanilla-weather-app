@@ -1,13 +1,15 @@
 body{
-  background-color: rgb(171, 187, 159);
+  background-color: rgb(197, 213, 195);
 }
 
 h1 {
         color: #135833;
-        font-size: 26px;
+        font-size: 32px;
         font-weight: 100;
+        font-weight: bolder;
         line-height: 28px;
         margin-bottom: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
       }
 
@@ -21,9 +23,11 @@ h1 {
         margin: 0;
         padding: 0;
         color: #135833;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 100;
         line-height: 19px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana
+        
       }
       li:first-letter {
         text-transform: capitalize;
@@ -49,7 +53,7 @@ h1 {
       }
       .weather-temperature strong {
         color:#135833;
-        font-size: 64px;
+        font-size: 50px;
         line-height: 1;
         font-weight: 400;
       }
